@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Button Diversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/style.css">
+  <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+  <!---------------------title------------------------->
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <hr>
+        <p>Use the interactive charts below to explore the <a href="http://robdunnlab.com/projects/belly-button-biodiversity/">Belly Button Biodiversity dataset</a></p>
+      </div>
+    </div>
+    <!-----------------end of title----------------------->
+
+    <div class="row">
+      <div class="col-lg-3">
+        <!--select drop down-->
+        <div class="well">
+          <h5>SELECT Sample:</h5>
+          <select class="btn btn-default" id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <!--end of select drop down-->
+
+        <!--metadata panel-->
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Sample MetaData</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+        <!--end of metadata panel-->
+      </div>
+
+      <!--pie chart-->
+      <div class="col-lg-5">
+        <div id="pie"></div>
+      </div>
+      <!--end of pie chart-->
+
+      <!--gauge chart-->
+      <div class="col-lg-4">
+        <div id="gauge"></div>
+      </div>
+      <!--end of gauge chart-->
+    </div>
+
+  <!--bubble chart-->
+  <div class="row">
+    <div class="col-md-12">
+      <div id="bubble"></div>
+    </div>
+  </div>
+  <!--end of bubble chart-->
+  
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="../static/js/app.js"></script>
+  <script src="../static/js/bonus.js"></script>
+
+</body>
+
+</html>
