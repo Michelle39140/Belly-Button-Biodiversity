@@ -6,13 +6,13 @@
 
 **Languages**: JavaScript, Python, HTML, CSS
 
-**Packages**: Plotly.js, D3.js; pandas, sqlalchemy, flask  **Framework**: bootstrap
+**Packages**: Plotly.js, D3.js; pandas, sqlalchemy, flask.   **Framework**: bootstrap
 
 **Deployed on**: Heroku
 
 ### The website is live here: https://bellybuttondiversity-wf.herokuapp.com/
 
-The following charts will be renbered for the sample user selected :
+The following charts will be rendered for the user selected sample:
 
 * PIE chart: displays the top 10 microbial species.
 
