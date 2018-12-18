@@ -10,15 +10,15 @@
 
 **Deployed on**: Heroku
 
-### The website is like here: https://bellybuttondiversity-wf.herokuapp.com/
+### The website is live here: https://bellybuttondiversity-wf.herokuapp.com/
 
-Charts on the webpage including:
+The following charts will be renbered for the sample user selected :
 
-* PIE chart: uses data from selected samples route (`/samples/<sample>`) to display the top 10 samples.
-
-* Bubble Chart: uses data from selected samples route (`/samples/<sample>`) to display each sample.
+* PIE chart: displays the top 10 microbial species.
 
 * Gauge Chart: plots the Weekly Washing Frequency for the selected sample
+
+* Bubble Chart: shows the count and details of every microbial species.
 
 
 #
